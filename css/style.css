@@ -18,7 +18,7 @@ header {
     height: 81.5vh;
 }
 
-.quizzNameConatiner {
+.quizzNamecontainer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +28,6 @@ header {
     margin: 0 auto;
     overflow: auto;
     box-shadow: 0 0 30px #bebebe, -15px -15px 30px #ffffff;
-    display: none;
 }
 
 .quizzName {
@@ -40,7 +39,7 @@ header {
     padding: 5px;
 }
 
-.quizesName {
+.quizzesName {
     width: 50vw;
     height: 10vh;
     display: flex;
@@ -50,6 +49,8 @@ header {
     margin: 1vh 0;
     border-radius: 10px;
 }
+
+
 
 .quizzQuestionsContainer {
     box-shadow: 0 0 30px #bebebe, -15px -15px 30px #ffffff;
@@ -96,10 +97,13 @@ header {
     overflow-wrap: break-word;
 }
 
+
+
 .resultContainer{
     box-shadow: 0 0 30px #bebebe, -15px -15px 30px #ffffff;
     padding: 1%;
     border-radius: 15px;
+    display: none;
 }
 
 .resultHeading {
@@ -130,33 +134,14 @@ button {
     margin: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer {
-    border: green solid;
     background-color: rgb(12, 121, 121);
     height: 7vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: .5vh;
     position: fixed;
+    margin: 0 6px 6px 6px;
     bottom: 0;
     left: 0;
     right: 0;
