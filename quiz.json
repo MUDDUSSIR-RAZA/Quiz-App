@@ -2172,5 +2172,625 @@
                 "answer": "type recordName = record {\n field1 : type1;\n field2 : type2;\n}"
             }
         ]
+    },
+    {
+        "quizTitle": "SQL Quiz",
+        "questions": [
+            {
+                "question": "What is SQL?",
+                "options": [
+                    "Structured Query Language",
+                    "Structured Query Logic",
+                    "Structured Query Learning",
+                    "Structured Query List"
+                ],
+                "answer": "Structured Query Language"
+            },
+            {
+                "question": "What is the SELECT statement used for?",
+                "options": [
+                    "Retrieving data from a database",
+                    "Inserting data into a database",
+                    "Updating data in a database",
+                    "Deleting data from a database"
+                ],
+                "answer": "Retrieving data from a database"
+            },
+            {
+                "question": "What is the WHERE clause used for?",
+                "options": [
+                    "Filtering data based on a specified condition",
+                    "Sorting data in ascending or descending order",
+                    "Grouping data by a specified column",
+                    "Performing mathematical operations on data"
+                ],
+                "answer": "Filtering data based on a specified condition"
+            },
+            {
+                "question": "What is the difference between the INNER JOIN and OUTER JOIN?",
+                "options": [
+                    "An INNER JOIN only returns matching rows, while an OUTER JOIN returns all rows from both tables",
+                    "An OUTER JOIN only returns matching rows, while an INNER JOIN returns all rows from both tables",
+                    "There is no difference, the terms are interchangeable",
+                    "An INNER JOIN returns only the first matching row, while an OUTER JOIN returns all matching rows"
+                ],
+                "answer": "An INNER JOIN only returns matching rows, while an OUTER JOIN returns all rows from both tables"
+            },
+            {
+                "question": "What is the GROUP BY clause used for?",
+                "options": [
+                    "Grouping data by a specified column",
+                    "Filtering data based on a specified condition",
+                    "Sorting data in ascending or descending order",
+                    "Performing mathematical operations on data"
+                ],
+                "answer": "Grouping data by a specified column"
+            },
+            {
+                "question": "What is the ORDER BY clause used for?",
+                "options": [
+                    "Sorting data in ascending or descending order",
+                    "Filtering data based on a specified condition",
+                    "Grouping data by a specified column",
+                    "Performing mathematical operations on data"
+                ],
+                "answer": "Sorting data in ascending or descending order"
+            },
+            {
+                "question": "What is the INSERT statement used for?",
+                "options": [
+                    "Inserting data into a database",
+                    "Retrieving data from a database",
+                    "Updating data in a database",
+                    "Deleting data from a database"
+                ],
+                "answer": "Inserting data into a database"
+            },
+            {
+                "question": "What is the UPDATE statement used for?",
+                "options": [
+                    "Updating data in a database",
+                    "Inserting data into a database",
+                    "Retrieving data from a database",
+                    "Deleting data from a database"
+                ],
+                "answer": "Updating data in a database"
+            },
+            {
+                "question": "What is the DELETE statement used for?",
+                "options": [
+                    "Deleting data from a database",
+                    "Inserting data into a database",
+                    "Retrieving data from a database",
+                    "Updating data in a database"
+                ],
+                "answer": "Deleting data from a database"
+            },
+            {
+                "question": "What is a primary key?",
+                "options": [
+                    "A column or set of columns that uniquely identifies each row in a table",
+                    "A column or set of columns that are used to sort data in ascending or descending order",
+                    "A column or set of columns that are used to group data by a specified column",
+                    "A column or set of columns that are used to perform mathematical operations on data"
+                ],
+                "answer": "A column or set of columns that uniquely identifies each row in a table"
+            },
+            {
+                "question": "What is the HAVING clause used for?",
+                "options": [
+                    "Filtering data based on a specified condition after grouping has occurred",
+                    "Sorting data in ascending or descending order",
+                    "Grouping data by a specified column",
+                    "Performing mathematical operations on data"
+                ],
+                "answer": "Filtering data based on a specified condition after grouping has occurred"
+            },
+            {
+                "question": "What is the difference between the COUNT and SUM functions?",
+                "options": [
+                    "COUNT returns the number of rows in a table, while SUM returns the total value of a specified column",
+                    "SUM returns the number of rows in a table, while COUNT returns the total value of a specified column",
+                    "There is no difference, the functions are interchangeable",
+                    "COUNT returns the first matching row, while SUM returns all matching rows"
+                ],
+                "answer": "COUNT returns the number of rows in a table, while SUM returns the total value of a specified column"
+            },
+            {
+                "question": "What is the AVG function used for?",
+                "options": [
+                    "Calculating the average value of a specified column",
+                    "Filtering data based on a specified condition",
+                    "Grouping data by a specified column",
+                    "Sorting data in ascending or descending order"
+                ],
+                "answer": "Calculating the average value of a specified column"
+            },
+            {
+                "question": "What is the MAX function used for?",
+                "options": [
+                    "Finding the highest value in a specified column",
+                    "Finding the lowest value in a specified column",
+                    "Filtering data based on a specified condition",
+                    "Grouping data by a specified column"
+                ],
+                "answer": "Finding the highest value in a specified column"
+            },
+            {
+                "question": "What is the MIN function used for?",
+                "options": [
+                    "Finding the lowest value in a specified column",
+                    "Finding the highest value in a specified column",
+                    "Filtering data based on a specified condition",
+                    "Grouping data by a specified column"
+                ],
+                "answer": "Finding the lowest value in a specified column"
+            }
+        ]
+    },
+    {
+        "quizTitle": "Kotlin Quiz",
+        "questions": [
+            {
+                "question": "What is Kotlin?",
+                "options": [
+                    "A statically-typed programming language that runs on the Java Virtual Machine (JVM)",
+                    "A dynamically-typed programming language that runs on the Java Virtual Machine (JVM)",
+                    "A programming language for web development",
+                    "A programming language for iOS app development"
+                ],
+                "answer": "A statically-typed programming language that runs on the Java Virtual Machine (JVM)"
+            },
+            {
+                "question": "What are the main features of Kotlin?",
+                "options": [
+                    "Null safety, extension functions, lambdas, and coroutines",
+                    "Type safety, virtual classes, pointers, and macros",
+                    "Object-oriented programming, functional programming, and aspect-oriented programming",
+                    "Dynamic typing, reflection, and code generation"
+                ],
+                "answer": "Null safety, extension functions, lambdas, and coroutines"
+            },
+            {
+                "question": "What is the entry point for a Kotlin program?",
+                "options": [
+                    "The main function",
+                    "The init function",
+                    "The start function",
+                    "The run function"
+                ],
+                "answer": "The main function"
+            },
+            {
+                "question": "What is the difference between val and var in Kotlin?",
+                "options": [
+                    "val is used to declare read-only variables, while var is used to declare variables that can be reassigned",
+                    "var is used to declare read-only variables, while val is used to declare variables that can be reassigned",
+                    "val is used to declare nullable variables, while var is used to declare non-nullable variables",
+                    "var is used to declare nullable variables, while val is used to declare non-nullable variables"
+                ],
+                "answer": "val is used to declare read-only variables, while var is used to declare variables that can be reassigned"
+            },
+            {
+                "question": "What is a higher-order function in Kotlin?",
+                "options": [
+                    "A function that takes another function as a parameter, or returns a function as its result",
+                    "A function that takes no parameters and returns no value",
+                    "A function that has a receiver object",
+                    "A function that is defined inside another function"
+                ],
+                "answer": "A function that takes another function as a parameter, or returns a function as its result"
+            },
+            {
+                "question": "What is the Elvis operator in Kotlin?",
+                "options": [
+                    "A shorthand for checking if a nullable value is null, and providing a default value if it is",
+                    "A shorthand for checking if a non-nullable value is null, and providing a default value if it is",
+                    "A shorthand for checking if a value is not null, and providing a default value if it is",
+                    "A shorthand for checking if a value is null, and throwing an exception if it is"
+                ],
+                "answer": "A shorthand for checking if a nullable value is null, and providing a default value if it is"
+            },
+            {
+                "question": "What is a lambda in Kotlin?",
+                "options": [
+                    "A function that can be passed as a parameter to another function",
+                    "A function that takes no parameters and returns no value",
+                    "A function that has a receiver object",
+                    "A function that is defined inside another function"
+                ],
+                "answer": "A function that can be passed as a parameter to another function"
+            },
+            {
+                "question": "What is an extension function in Kotlin?",
+                "options": [
+                    "A function that can be added to an existing class without modifying the class itself",
+                    "A function that is defined inside a class and can access its private members",
+                    "A function that can be passed as a parameter to another function",
+                    "A function that takes no parameters and returns no value"
+                ],
+                "answer": "A function that can be added to an existing class without modifying the class itself"
+            },
+            {
+                "question": "What is the difference between a lateinit var and a nullable var in Kotlin?",
+                "options": [
+                    "A lateinit var is a non-null variable that is initialized later, while a nullable var is a variable that can be null",
+                    "A lateinit var can only be used with primitive types, while a nullable var can be used with any type",
+                    "A lateinit var is a variable that can be null, while a nullable var is a non-null variable that is initialized later",
+                    "There is no difference, both are used to declare variables that may be null"
+                ],
+                "answer": "A lateinit var is a non-null variable that is initialized later, while a nullable var is a variable that can be null"
+            },
+            {
+                "question": "What is the Elvis operator in Kotlin?",
+                "options": [
+                    "An operator that allows you to check if a variable is null before accessing its properties or methods",
+                    "An operator that allows you to declare a nullable variable",
+                    "An operator that allows you to perform arithmetic operations on nullable variables",
+                    "An operator that allows you to perform bitwise operations on nullable variables"
+                ],
+                "answer": "An operator that allows you to check if a variable is null before accessing its properties or methods"
+            },
+            {
+                "question": "What is a data class in Kotlin?",
+                "options": [
+                    "A class that is used to hold data and does not have any functionality",
+                    "A class that is used to define the structure of an object",
+                    "A class that is used to create objects with a single property",
+                    "A class that is used to create objects with multiple properties and provides useful methods such as equals(), hashCode(), and toString()"
+                ],
+                "answer": "A class that is used to create objects with multiple properties and provides useful methods such as equals(), hashCode(), and toString()"
+            },
+            {
+                "question": "What is the difference between a val and a var in Kotlin?",
+                "options": [
+                    "A val is a read-only variable that can be assigned once, while a var is a mutable variable that can be assigned multiple times",
+                    "A val can only be used with primitive types, while a var can be used with any type",
+                    "A val is a variable that can be null, while a var is a non-null variable",
+                    "There is no difference, both are used to declare variables"
+                ],
+                "answer": "A val is a read-only variable that can be assigned once, while a var is a mutable variable that can be assigned multiple times"
+            },
+            {
+                "question": "What is a lambda function in Kotlin?",
+                "options": [
+                    "A function that is passed as an argument to another function",
+                    "A function that is defined inside a class and can access its private members",
+                    "A function that is used to perform arithmetic operations on variables",
+                    "A function that takes no parameters and returns no value"
+                ],
+                "answer": "A function that is passed as an argument to another function"
+            },
+            {
+                "question": "What is the when expression in Kotlin?",
+                "options": [
+                    "An expression that is used to replace if-else statements",
+                    "An expression that is used to create an object of a class",
+                    "An expression that is used to create a loop",
+                    "An expression that is used to perform mathematical operations on variables"
+                ],
+                "answer": "An expression that is used to replace if-else statements"
+            },
+            {
+                "question": "What is the purpose of the lateinit modifier in Kotlin?",
+                "options": [
+                    "To declare a non-null variable that will be initialized later",
+                    "To declare a nullable variable that will be initialized later",
+                    "To declare a variable that can be accessed from anywhere in the code",
+                    "To declare a variable that can only be accessed from within the class"
+                ],
+                "answer": "To declare a non-null variable that will be initialized later"
+            }
+        ]
+    },
+    {
+        "quizTitle": "Swift Quiz",
+        "questions": [
+            {
+                "question": "What is the keyword used in Swift to declare a constant?",
+                "options": [
+                    "var",
+                    "let",
+                    "const",
+                    "final"
+                ],
+                "answer": "let"
+            },
+            {
+                "question": "Which Swift keyword is used to create a new instance of a class?",
+                "options": [
+                    "new",
+                    "alloc",
+                    "instance",
+                    "create"
+                ],
+                "answer": "alloc"
+            },
+            {
+                "question": "What is the difference between a struct and a class in Swift?",
+                "options": [
+                    "A struct can be passed by reference, but a class can't.",
+                    "A class can be passed by reference, but a struct can't.",
+                    "A struct can't have properties, but a class can.",
+                    "A class can't have methods, but a struct can."
+                ],
+                "answer": "A class can be passed by reference, but a struct can't."
+            },
+            {
+                "question": "What is the syntax to declare an empty array in Swift?",
+                "options": [
+                    "let arr = []",
+                    "let arr = {}",
+                    "let arr: [Int] = []",
+                    "let arr: Array<Int> = []"
+                ],
+                "answer": "let arr: [Int] = []"
+            },
+            {
+                "question": "What is the difference between the == operator and the === operator in Swift?",
+                "options": [
+                    "== compares two values for equality, while === compares two object references for equality.",
+                    "== compares two object references for equality, while === compares two values for equality.",
+                    "== and === are interchangeable in Swift.",
+                    "== and === are not valid operators in Swift."
+                ],
+                "answer": "== compares two values for equality, while === compares two object references for equality."
+            },
+            {
+                "question": "What is the syntax to declare a function in Swift?",
+                "options": [
+                    "func functionName() {}",
+                    "function functionName() {}",
+                    "def functionName() {}",
+                    "declare functionName() {}"
+                ],
+                "answer": "func functionName() {}"
+            },
+            {
+                "question": "What is the syntax to define a closure in Swift?",
+                "options": [
+                    "let closure = { (parameters) -> ReturnType in\n statement\n}",
+                    "let closure = (parameters) -> ReturnType in { statement }",
+                    "let closure = { statement }",
+                    "let closure = (parameters) in { statement }"
+                ],
+                "answer": "let closure = { (parameters) -> ReturnType in\n statement\n}"
+            },
+            {
+                "question": "What is the syntax to loop through an array in Swift?",
+                "options": [
+                    "for item in array {\n statement\n}",
+                    "for i in array.count {\n statement\n}",
+                    "while i < array.count {\n statement\n}",
+                    "foreach item in array {\n statement\n}"
+                ],
+                "answer": "for item in array {\n statement\n}"
+            },
+            {
+                "question": "What is the syntax to create a function in Swift?",
+                "options": [
+                    "func functionName() {\n statement\n}",
+                    "function functionName() {\n statement\n}",
+                    "func functionName() -> Void {\n statement\n}",
+                    "def functionName() {\n statement\n}"
+                ],
+                "answer": "func functionName() {\n statement\n}"
+            },
+            {
+                "question": "What is the keyword used in Swift to refer to the current instance of a class?",
+                "options": [
+                    "super",
+                    "self",
+                    "this",
+                    "instance"
+                ],
+                "answer": "self"
+            },
+            {
+                "question": "What is the syntax to declare a constant in Swift?",
+                "options": [
+                    "let constantName = value",
+                    "const constantName = value",
+                    "var constantName = value",
+                    "constant constantName = value"
+                ],
+                "answer": "let constantName = value"
+            },
+            {
+                "question": "What is the syntax to declare a variable in Swift?",
+                "options": [
+                    "let variableName = value",
+                    "const variableName = value",
+                    "var variableName = value",
+                    "variable variableName = value"
+                ],
+                "answer": "var variableName = value"
+            },
+            {
+                "question": "What is the syntax to append an element to an array in Swift?",
+                "options": [
+                    "array.append(element)",
+                    "array.add(element)",
+                    "array.insert(element, atIndex: 0)",
+                    "array += element"
+                ],
+                "answer": "array.append(element)"
+            },
+            {
+                "question": "What is the syntax to remove the last element from an array in Swift?",
+                "options": [
+                    "array.removeLast()",
+                    "array.pop()",
+                    "array.deleteLast()",
+                    "array.remove(-1)"
+                ],
+                "answer": "array.removeLast()"
+            },
+            {
+                "question": "What is the syntax to remove all elements from an array in Swift?",
+                "options": [
+                    "array.removeAll()",
+                    "array.remove()",
+                    "array.deleteAll()",
+                    "array.remove(0...array.count)"
+                ],
+                "answer": "array.removeAll()"
+            }
+        ]
+    },
+    {
+        "quizTitle": "Math Quiz",
+        "questions": [
+            {
+                "question": "What is the value of pi (π)?",
+                "options": [
+                    "3.1415",
+                    "3.14159",
+                    "3.141592",
+                    "3.1415926"
+                ],
+                "answer": "3.1415926"
+            },
+            {
+                "question": "What is the square root of 144?",
+                "options": [
+                    "10",
+                    "11",
+                    "12",
+                    "13"
+                ],
+                "answer": "12"
+            },
+            {
+                "question": "What is the Pythagorean theorem?",
+                "options": [
+                    "a² + b² = c²",
+                    "a² + b² = d²",
+                    "a² - b² = c²",
+                    "a² - b² = d²"
+                ],
+                "answer": "a² + b² = c²"
+            },
+            {
+                "question": "What is the value of the natural logarithm of 1?",
+                "options": [
+                    "0",
+                    "1",
+                    "e",
+                    "Undefined"
+                ],
+                "answer": "0"
+            },
+            {
+                "question": "What is the area of a circle with radius 5?",
+                "options": [
+                    "25π",
+                    "50π",
+                    "75π",
+                    "100π"
+                ],
+                "answer": "25π"
+            },
+            {
+                "question": "What is the formula for the volume of a sphere?",
+                "options": [
+                    "(4/3)πr²",
+                    "(4/3)πr³",
+                    "πr²",
+                    "πr³"
+                ],
+                "answer": "(4/3)πr³"
+            },
+            {
+                "question": "What is the sine of a 30 degree angle?",
+                "options": [
+                    "0.5",
+                    "0.707",
+                    "0.866",
+                    "1"
+                ],
+                "answer": "0.5"
+            },
+            {
+                "question": "What is the derivative of x²?",
+                "options": [
+                    "2x",
+                    "x²",
+                    "1/x",
+                    "x"
+                ],
+                "answer": "2x"
+            },
+            {
+                "question": "What is the integral of x dx?",
+                "options": [
+                    "x",
+                    "x²",
+                    "1/x",
+                    "ln(x)"
+                ],
+                "answer": "x²/2"
+            },
+            {
+                "question": "What is the limit of (sin x) / x as x approaches 0?",
+                "options": [
+                    "0",
+                    "1",
+                    "π",
+                    "Undefined"
+                ],
+                "answer": "1"
+            },
+            {
+                "question": "What is the value of e⁰?",
+                "options": [
+                    "0",
+                    "1",
+                    "e",
+                    "Undefined"
+                ],
+                "answer": "1"
+            },
+            {
+                "question": "What is the formula for the surface area of a cylinder?",
+                "options": [
+                    "2πrh",
+                    "2πr²",
+                    "2πr(r + h)",
+                    "πr²h"
+                ],
+                "answer": "2πr² + 2πrh"
+            },
+            {
+                "question": "What is the formula for the area of a circle?",
+                "options": [
+                    "πr²",
+                    "2πr",
+                    "2πr²",
+                    "πr"
+                ],
+                "answer": "πr²"
+            },
+            {
+                "question": "What is the formula for the circumference of a circle?",
+                "options": [
+                    "πr²",
+                    "2πr",
+                    "2πr²",
+                    "πr"
+                ],
+                "answer": "2πr"
+            },
+            {
+                "question": "What is the formula for the volume of a sphere?",
+                "options": [
+                    "(4/3)πr³",
+                    "4πr³",
+                    "(1/3)πr³",
+                    "πr²h"
+                ],
+                "answer": "(4/3)πr³"
+            }
+        ]
     }
 ]
