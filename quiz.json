@@ -1,0 +1,1711 @@
+[
+    {
+        "quizName": "HTML Quiz",
+        "questions": [
+            {
+                "question": "What does HTML stand for?",
+                "options": [
+                    "Hyperlinks and Text Markup Language",
+                    "Hyper Text Markup Language",
+                    "Home Tool Markup Language",
+                    "Hyperlink Tool Markup Language"
+                ],
+                "answer": "Hyper Text Markup Language"
+            },
+            {
+                "question": "What is the correct HTML element for the largest heading?",
+                "options": [
+                    "<h1>",
+                    "<heading>",
+                    "<h6>",
+                    "<big>"
+                ],
+                "answer": "<h1>"
+            },
+            {
+                "question": "What is the correct HTML element for inserting a line break?",
+                "options": [
+                    "<lb>",
+                    "<br>",
+                    "<break>",
+                    "<newline>"
+                ],
+                "answer": "<br>"
+            },
+            {
+                "question": "Which character is used to indicate an end tag?",
+                "options": [
+                    "/",
+                    "<",
+                    ">",
+                    "^"
+                ],
+                "answer": "/"
+            },
+            {
+                "question": "Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?",
+                "options": [
+                    "alt",
+                    "title",
+                    "src",
+                    "href"
+                ],
+                "answer": "alt"
+            },
+            {
+                "question": "Which HTML tag is used to define an internal style sheet?",
+                "options": [
+                    "<script>",
+                    "<style>",
+                    "<head>",
+                    "<meta>"
+                ],
+                "answer": "<style>"
+            },
+            {
+                "question": "Which HTML attribute is used to define inline styles?",
+                "options": [
+                    "style",
+                    "class",
+                    "id",
+                    "font"
+                ],
+                "answer": "style"
+            },
+            {
+                "question": "Which HTML tag is used to define a hyperlink?",
+                "options": [
+                    "<href>",
+                    "<link>",
+                    "<a>",
+                    "<hyperlink>"
+                ],
+                "answer": "<a>"
+            },
+            {
+                "question": "Which HTML tag is used to define a table?",
+                "options": [
+                    "<table>",
+                    "<tr>",
+                    "<td>",
+                    "<th>"
+                ],
+                "answer": "<table>"
+            },
+            {
+                "question": "Which HTML attribute is used to define the background color of an element?",
+                "options": [
+                    "bgcolor",
+                    "background",
+                    "color",
+                    "style"
+                ],
+                "answer": "bgcolor"
+            },
+            {
+                "question": "Which HTML tag is used to define a form for user input?",
+                "options": [
+                    "<form>",
+                    "<input>",
+                    "<button>",
+                    "<submit>"
+                ],
+                "answer": "<form>"
+            },
+            {
+                "question": "Which HTML attribute is used to define a keyboard shortcut?",
+                "options": [
+                    "accesskey",
+                    "shortcut",
+                    "key",
+                    "hotkey"
+                ],
+                "answer": "accesskey"
+            },
+            {
+                "question": "Which HTML tag is used to define a list item?",
+                "options": [
+                    "<ul>",
+                    "<li>",
+                    "<ol>",
+                    "<dl>"
+                ],
+                "answer": "<li>"
+            },
+            {
+                "question": "Which HTML attribute is used to define inline frames?",
+                "options": [
+                    "src",
+                    "iframe",
+                    "frame",
+                    "if"
+                ],
+                "answer": "src"
+            },
+            {
+                "question": "Which HTML tag is used to define a footer for a document or section?",
+                "options": [
+                    "<footer>",
+                    "<section>",
+                    "<bottom>",
+                    "<end>"
+                ],
+                "answer": "<footer>"
+            }
+        ]
+    },
+    {
+        "quizName": "CSS Quiz",
+        "questions": [
+            {
+                "question": "What does CSS stand for?",
+                "options": [
+                    "Colorful Style Sheets",
+                    "Creative Style Sheets",
+                    "Cascading Style Sheets",
+                    "Computer Style Sheets"
+                ],
+                "answer": "Cascading Style Sheets"
+            },
+            {
+                "question": "Which HTML tag is used to link to an external CSS file?",
+                "options": [
+                    "<link>",
+                    "<style>",
+                    "<head>",
+                    "<css>"
+                ],
+                "answer": "<link>"
+            },
+            {
+                "question": "Which CSS property is used to change the text color of an element?",
+                "options": [
+                    "background-color",
+                    "color",
+                    "font-color",
+                    "text-color"
+                ],
+                "answer": "color"
+            },
+            {
+                "question": "Which CSS property is used to change the background color of an element?",
+                "options": [
+                    "background-color",
+                    "color",
+                    "font-color",
+                    "text-color"
+                ],
+                "answer": "background-color"
+            },
+            {
+                "question": "Which CSS property is used to set the height of an element?",
+                "options": [
+                    "height",
+                    "width",
+                    "size",
+                    "dimension"
+                ],
+                "answer": "height"
+            },
+            {
+                "question": "Which CSS property is used to set the width of an element?",
+                "options": [
+                    "width",
+                    "height",
+                    "size",
+                    "dimension"
+                ],
+                "answer": "width"
+            },
+            {
+                "question": "Which CSS property is used to set the font size of an element?",
+                "options": [
+                    "font-size",
+                    "text-size",
+                    "size",
+                    "font-style"
+                ],
+                "answer": "font-size"
+            },
+            {
+                "question": "Which CSS property is used to add a border to an element?",
+                "options": [
+                    "border",
+                    "border-style",
+                    "border-width",
+                    "border-color"
+                ],
+                "answer": "border"
+            },
+            {
+                "question": "Which CSS property is used to add space between elements?",
+                "options": [
+                    "padding",
+                    "margin",
+                    "spacing",
+                    "gap"
+                ],
+                "answer": "margin"
+            },
+            {
+                "question": "Which CSS property is used to set the text alignment of an element?",
+                "options": [
+                    "text-align",
+                    "alignment",
+                    "text-style",
+                    "line-align"
+                ],
+                "answer": "text-align"
+            },
+            {
+                "question": "Which CSS property is used to change the font style of an element?",
+                "options": [
+                    "font-style",
+                    "font-weight",
+                    "font-size",
+                    "font-variant"
+                ],
+                "answer": "font-style"
+            },
+            {
+                "question": "Which CSS property is used to add shadows to an element?",
+                "options": [
+                    "box-shadow",
+                    "shadow",
+                    "element-shadow",
+                    "object-shadow"
+                ],
+                "answer": "box-shadow"
+            },
+            {
+                "question": "Which CSS property is used to make an element transparent?",
+                "options": [
+                    "opacity",
+                    "transparent",
+                    "visibility",
+                    "transparency"
+                ],
+                "answer": "opacity"
+            },
+            {
+                "question": "Which CSS property is used to set the display mode of an element?",
+                "options": [
+                    "display",
+                    "mode",
+                    "visible",
+                    "visibility"
+                ],
+                "answer": "display"
+            },
+            {
+                "question": "Which CSS property is used to center an element horizontally?",
+                "options": [
+                    "margin",
+                    "padding",
+                    "align",
+                    "text-align"
+                ],
+                "answer": "text-align"
+            }
+        ]
+    },
+    {
+        "quizTitle": "JavaScript Quiz",
+        "questions": [
+            {
+                "question": "What is the keyword used to declare a variable in JavaScript?",
+                "options": [
+                    "var",
+                    "let",
+                    "const",
+                    "variable"
+                ],
+                "answer": "var"
+            },
+            {
+                "question": "Which built-in method returns the length of the string?",
+                "options": [
+                    "length()",
+                    "size()",
+                    "index()",
+                    "count()"
+                ],
+                "answer": "length()"
+            },
+            {
+                "question": "Which built-in method removes the last element from an array and returns that element?",
+                "options": [
+                    "pop()",
+                    "push()",
+                    "join()",
+                    "shift()"
+                ],
+                "answer": "pop()"
+            },
+            {
+                "question": "Which of the following is a correct way to write a comment in JavaScript?",
+                "options": [
+                    "// This is a comment",
+                    "<!-- This is a comment -->",
+                    "# This is a comment",
+                    "* This is a comment *"
+                ],
+                "answer": "// This is a comment"
+            },
+            {
+                "question": "What is the output of the following code?\n\nconsole.log(1 + '2' + 3 + '4');",
+                "options": [
+                    "1234",
+                    "10",
+                    "13",
+                    "10234"
+                ],
+                "answer": "1234"
+            },
+            {
+                "question": "What is the output of the following code?\n\nvar x = 5;\nvar y = x++;\nconsole.log(y);",
+                "options": [
+                    "5",
+                    "6",
+                    "undefined",
+                    "NaN"
+                ],
+                "answer": "5"
+            },
+            {
+                "question": "Which of the following is not a JavaScript data type?",
+                "options": [
+                    "string",
+                    "number",
+                    "boolean",
+                    "float"
+                ],
+                "answer": "float"
+            },
+            {
+                "question": "Which of the following is used to add a new element to an array?",
+                "options": [
+                    "push()",
+                    "pop()",
+                    "splice()",
+                    "slice()"
+                ],
+                "answer": "push()"
+            },
+            {
+                "question": "What is the output of the following code?\n\nvar x = '5';\nvar y = x * 2;\nconsole.log(y);",
+                "options": [
+                    "10",
+                    "25",
+                    "undefined",
+                    "NaN"
+                ],
+                "answer": "10"
+            },
+            {
+                "question": "What is the output of the following code?\n\nconsole.log(typeof(null));",
+                "options": [
+                    "null",
+                    "undefined",
+                    "object",
+                    "string"
+                ],
+                "answer": "object"
+            },
+            {
+                "question": "Which of the following is not a loop in JavaScript?",
+                "options": [
+                    "for",
+                    "while",
+                    "foreach",
+                    "do...while"
+                ],
+                "answer": "foreach"
+            },
+            {
+                "question": "What is the output of the following code?\n\nconsole.log('2' == 2);",
+                "options": [
+                    "true",
+                    "false",
+                    "undefined",
+                    "NaN"
+                ],
+                "answer": "true"
+            },
+            {
+                "question": "What is the purpose of the JavaScript 'strict mode'?",
+                "options": [
+                    "To restrict access to certain features in the language",
+                    "To make the code more readable",
+                    "To enforce better coding practices",
+                    "To allow debugging of code"
+                ],
+                "answer": "To enforce better coding practices"
+            },
+            {
+                "question": "What is the output of the following code?\n\nconsole.log(1 + '2' + '2');",
+                "options": [
+                    "122",
+                    "32",
+                    "14",
+                    "undefined"
+                ],
+                "answer": "122"
+            },
+            {
+                "question": "What is the difference between '==' and '===' operators?",
+                "options": [
+                    "'==' performs type coercion, while '===' does not",
+                    "'===' performs type coercion, while '==' does not",
+                    "'==' compares the values of the operands, while '===' compares the values and types",
+                    "There is no difference between them"
+                ],
+                "answer": "'==' performs type coercion, while '===' does not"
+            }
+        ]
+    },
+    {
+        "quizTitle": "Python Quiz",
+        "questions": [
+            {
+                "question": "What is the output of the following code?\n\nprint(type(3.14))",
+                "options": [
+                    "float",
+                    "int",
+                    "str",
+                    "list"
+                ],
+                "answer": "float"
+            },
+            {
+                "question": "Which of the following is NOT a Python built-in data type?",
+                "options": [
+                    "str",
+                    "int",
+                    "float",
+                    "array"
+                ],
+                "answer": "array"
+            },
+            {
+                "question": "What is the output of the following code?\n\nprint('Python'[1:])",
+                "options": [
+                    "Py",
+                    "ython",
+                    "P",
+                    "y"
+                ],
+                "answer": "ython"
+            },
+            {
+                "question": "What is the correct way to declare a tuple in Python?",
+                "options": [
+                    "(1, 2, 3)",
+                    "[1, 2, 3]",
+                    "{1, 2, 3}",
+                    "1, 2, 3"
+                ],
+                "answer": "(1, 2, 3)"
+            },
+            {
+                "question": "Which of the following is the correct way to open a file in Python?",
+                "options": [
+                    "open('file.txt')",
+                    "read('file.txt')",
+                    "file.open('file.txt')",
+                    "file.read('file.txt')"
+                ],
+                "answer": "open('file.txt')"
+            },
+            {
+                "question": "What is the output of the following code?\n\nx = [1, 2, 3]\nprint(x[0])",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "0"
+                ],
+                "answer": "1"
+            },
+            {
+                "question": "Which of the following is NOT a valid Python comparison operator?",
+                "options": [
+                    "==",
+                    "!=",
+                    "<>",
+                    ">=",
+                    "<=",
+                    "><",
+                    ">",
+                    "<"
+                ],
+                "answer": "><"
+            },
+            {
+                "question": "What is the output of the following code?\n\nprint(len('Python'))",
+                "options": [
+                    "5",
+                    "6",
+                    "4",
+                    "7"
+                ],
+                "answer": "6"
+            },
+            {
+                "question": "What is the correct way to check if a key exists in a Python dictionary?",
+                "options": [
+                    "'key' in dict",
+                    "dict.contains('key')",
+                    "'key' in keys(dict)",
+                    "dict.get('key')"
+                ],
+                "answer": "'key' in dict"
+            },
+            {
+                "question": "What is the output of the following code?\n\nfor i in range(3):\n  print(i)",
+                "options": [
+                    "1, 2, 3",
+                    "0, 1, 2",
+                    "1, 1, 1",
+                    "0, 0, 0"
+                ],
+                "answer": "0, 1, 2"
+            },
+            {
+                "question": "Which of the following is the correct way to remove an item from a Python list?",
+                "options": [
+                    "list.remove(item)",
+                    "list.delete(item)",
+                    "del list[item]",
+                    "list.pop(item)"
+                ],
+                "answer": "list.remove(item)"
+            },
+            {
+                "question": "What is the output of the following code?\n\nx = 5\ny = 2\nprint(x % y)",
+                "options": [
+                    "2",
+                    "2.5",
+                    "3",
+                    "1"
+                ],
+                "answer": "1"
+            },
+            {
+                "question": "What is the output of the following code?\n\nx = [1, 2, 3]\nprint(x * 2)",
+                "options": [
+                    "[1, 2, 3, 1, 2, 3]",
+                    "[2, 4, 6]",
+                    "TypeError",
+                    "[1, 1, 2, 2, 3, 3]"
+                ],
+                "answer": "TypeError"
+            },
+            {
+                "question": "Which of the following is not a valid variable name in Python?",
+                "options": [
+                    "my_var",
+                    "myVar",
+                    "my-var",
+                    "_myvar"
+                ],
+                "answer": "my-var"
+            },
+            {
+                "question": "What is the output of the following code?\n\nfor i in range(2):\n for j in range(3):\n print(i * j, end=' ')\n print()",
+                "options": [
+                    "0 1 2 \n0 1 2 \n",
+                    "0 0 0 \n1 2 3 \n",
+                    "0 1 2 \n1 2 3 \n",
+                    "0 0 0 \n0 1 2 \n"
+                ],
+                "answer": "0 0 0 \n0 1 2 \n"
+            }
+        ]
+    },
+    {
+        "quizTitle": "Java Quiz",
+        "questions": [
+            {
+                "question": "Which of the following is a reserved keyword in Java?",
+                "options": [
+                    "goto",
+                    "const",
+                    "virtual",
+                    "null"
+                ],
+                "answer": "null"
+            },
+            {
+                "question": "Which data type is used to create a variable that should store text in Java?",
+                "options": [
+                    "String",
+                    "Text",
+                    "string",
+                    "txt"
+                ],
+                "answer": "String"
+            },
+            {
+                "question": "What is the output of the following code?\n\nint x = 5;\nint y = 3;\nSystem.out.println(x + y + \"text\" + (x - y));",
+                "options": [
+                    "8text2",
+                    "text8-2",
+                    "8text2-8",
+                    "text8"
+                ],
+                "answer": "8text2"
+            },
+            {
+                "question": "Which method is used to find the length of a string in Java?",
+                "options": [
+                    "size()",
+                    "length()",
+                    "len()",
+                    "getLength()"
+                ],
+                "answer": "length()"
+            },
+            {
+                "question": "What is the output of the following code?\n\nint[] arr = {1, 2, 3};\nSystem.out.println(arr.length);",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ],
+                "answer": "3"
+            },
+            {
+                "question": "Which of the following is not a primitive data type in Java?",
+                "options": [
+                    "int",
+                    "float",
+                    "boolean",
+                    "string"
+                ],
+                "answer": "string"
+            },
+            {
+                "question": "What is the output of the following code?\n\nint x = 4;\nint y = 2;\nSystem.out.println(x / y);",
+                "options": [
+                    "2",
+                    "2.0",
+                    "2.5",
+                    "4"
+                ],
+                "answer": "2"
+            },
+            {
+                "question": "Which of the following is a valid identifier in Java?",
+                "options": [
+                    "2var",
+                    "_var",
+                    "var#",
+                    "var-1"
+                ],
+                "answer": "_var"
+            },
+            {
+                "question": "What is the output of the following code?\n\nString s = \"Hello\";\nSystem.out.println(s.charAt(2));",
+                "options": [
+                    "e",
+                    "l",
+                    "o",
+                    "H"
+                ],
+                "answer": "l"
+            },
+            {
+                "question": "Which keyword is used to create an object in Java?",
+                "options": [
+                    "new",
+                    "create",
+                    "object",
+                    "instantiate"
+                ],
+                "answer": "new"
+            },
+            {
+                "question": "What is the output of the following code?\n\nint[] arr = {3, 2, 1};\nArrays.sort(arr);\nSystem.out.println(arr[0]);",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ],
+                "answer": "1"
+            },
+            {
+                "question": "What is the output of the following code?\n\nint x = 10;\nint y = x++;\nSystem.out.println(y);",
+                "options": [
+                    "9",
+                    "10",
+                    "11",
+                    "Compilation error"
+                ],
+                "answer": "10"
+            },
+            {
+                "question": "What is the output of the following code?\n\nString str1 = \"Hello\";\nString str2 = \"World\";\nSystem.out.println(str1.concat(str2));",
+                "options": [
+                    "Hello World",
+                    "Hello",
+                    "World",
+                    "null"
+                ],
+                "answer": "HelloWorld"
+            },
+            {
+                "question": "What is the output of the following code?\n\nint[] arr = new int[3];\nSystem.out.println(arr[0]);",
+                "options": [
+                    "0",
+                    "1",
+                    "2",
+                    "Compilation error"
+                ],
+                "answer": "0"
+            },
+            {
+                "question": "What is the output of the following code?\n\nint x = 5;\nif(x == 5){\nSystem.out.println(\"X is equal to 5\");\n} else {\nSystem.out.println(\"X is not equal to 5\");\n}",
+                "options": [
+                    "X is equal to 5",
+                    "X is not equal to 5",
+                    "Compilation error",
+                    "Runtime error"
+                ],
+                "answer": "X is equal to 5"
+            }
+        ]
+    },
+    {
+        "quizTitle": "PHP Quiz",
+        "questions": [
+            {
+                "question": "Which of the following is NOT a valid PHP variable name?",
+                "options": [
+                    "$my_var",
+                    "$MY_VAR",
+                    "$My_Var",
+                    "$my-var"
+                ],
+                "answer": "$my-var"
+            },
+            {
+                "question": "What is the output of the following code?\n\n$x = 5;\nfunction test() {\n  global $x;\n  $x = 10;\n}\ntest();\necho $x;",
+                "options": [
+                    "5",
+                    "10",
+                    "0",
+                    "Error"
+                ],
+                "answer": "10"
+            },
+            {
+                "question": "What is the result of the following code?\n\necho str_replace('world', 'John', 'Hello world!');",
+                "options": [
+                    "Hello world!",
+                    "Hello John!",
+                    "John world!",
+                    "John Hello!"
+                ],
+                "answer": "Hello John!"
+            },
+            {
+                "question": "What is the correct way to add a value to the end of an array in PHP?",
+                "options": [
+                    "array_add($myArray, $newValue)",
+                    "$myArray->add($newValue)",
+                    "array_push($myArray, $newValue)",
+                    "array_append($myArray, $newValue)"
+                ],
+                "answer": "array_push($myArray, $newValue)"
+            },
+            {
+                "question": "What is the output of the following code?\n\n$x = 5;\n$y = 2;\nif ($x == 5 and $y == 2) {\n  echo 'True';\n} else {\n  echo 'False';\n}",
+                "options": [
+                    "True",
+                    "False",
+                    "Error",
+                    "Undefined"
+                ],
+                "answer": "True"
+            },
+            {
+                "question": "What is the result of the following code?\n\necho strlen('hello world');",
+                "options": [
+                    "5",
+                    "10",
+                    "11",
+                    "12"
+                ],
+                "answer": "11"
+            },
+            {
+                "question": "What is the correct way to declare a constant in PHP?",
+                "options": [
+                    "define('MY_CONST', 'Hello World!')",
+                    "$MY_CONST = 'Hello World!';",
+                    "const MY_CONST = 'Hello World!';",
+                    "MY_CONST = 'Hello World!';"
+                ],
+                "answer": "define('MY_CONST', 'Hello World!')"
+            },
+            {
+                "question": "What is the output of the following code?\n\n$x = '5';\n$y = 2;\necho $x + $y;",
+                "options": [
+                    "7",
+                    "5",
+                    "2",
+                    "Error"
+                ],
+                "answer": "7"
+            },
+            {
+                "question": "What is the result of the following code?\n\necho ucwords('hello world');",
+                "options": [
+                    "hello world",
+                    "Hello World",
+                    "HELLO WORLD",
+                    "hELLO wORLD"
+                ],
+                "answer": "Hello World"
+            },
+            {
+                "question": "What is the correct way to remove the last value from an array in PHP?",
+                "options": [
+                    "array_remove($myArray)",
+                    "$myArray->remove()",
+                    "array_pop($myArray)",
+                    "array_shift($myArray)"
+                ],
+                "answer": "array_pop($myArray)"
+            },
+            {
+                "question": "Which keyword is used to declare a constant in PHP?",
+                "options": [
+                    "let",
+                    "final",
+                    "const",
+                    "var"
+                ],
+                "answer": "const"
+            },
+            {
+                "question": "What is the output of the following code?\n\n$x = 5;\n$y = 2;\necho $x % $y;",
+                "options": [
+                    "2",
+                    "2.5",
+                    "3",
+                    "1"
+                ],
+                "answer": "1"
+            },
+            {
+                "question": "What is the difference between '==' and '===' in PHP?",
+                "options": [
+                    "'==' checks value and type, while '===' checks only value",
+                    "'===' checks value and type, while '==' checks only value",
+                    "'==' and '===' are interchangeable in PHP",
+                    "There is no difference between '==' and '===' in PHP"
+                ],
+                "answer": "'==' checks value and type, while '===' checks only value"
+            },
+            {
+                "question": "Which of the following is used to connect to a MySQL database in PHP?",
+                "options": [
+                    "mysqli_query()",
+                    "mysql_connect()",
+                    "mysqli_connect()",
+                    "mysql_query()"
+                ],
+                "answer": "mysqli_connect()"
+            },
+            {
+                "question": "What is the correct way to start a PHP block?",
+                "options": [
+                    "<php>",
+                    "<?php",
+                    "<script>",
+                    "<?"
+                ],
+                "answer": "<?php"
+            }
+        ]
+    },
+    {
+        "quizTitle": "C++ Quiz",
+        "questions": [
+            {
+                "question": "What is the correct syntax for declaring a variable of type integer in C++?",
+                "options": [
+                    "int x;",
+                    "x = 5;",
+                    "integer x;",
+                    "int x = 5;"
+                ],
+                "answer": "int x = 5;"
+            },
+            {
+                "question": "What is the output of the following code?\n\nint x = 5;\nint y = x++;\ncout << y << endl;",
+                "options": [
+                    "5",
+                    "6",
+                    "0",
+                    "1"
+                ],
+                "answer": "5"
+            },
+            {
+                "question": "What is the correct way to initialize an array in C++?",
+                "options": [
+                    "int arr[5] = {1, 2, 3, 4, 5};",
+                    "int arr[] = {1, 2, 3, 4, 5};",
+                    "int arr[5] = {1, 2, 3};",
+                    "All of the above"
+                ],
+                "answer": "All of the above"
+            },
+            {
+                "question": "What is the output of the following code?\n\nint x = 5;\nint y = 10;\nif (x > y) {\n  cout << \"x is greater\" << endl;\n} else {\n  cout << \"y is greater\" << endl;\n}",
+                "options": [
+                    "x is greater",
+                    "y is greater",
+                    "none of the above",
+                    "syntax error"
+                ],
+                "answer": "y is greater"
+            },
+            {
+                "question": "What is the correct syntax for declaring a pointer to an integer in C++?",
+                "options": [
+                    "int *x;",
+                    "x = &5;",
+                    "integer *x;",
+                    "int x = *5;"
+                ],
+                "answer": "int *x;"
+            },
+            {
+                "question": "What is the output of the following code?\n\nint x = 5;\nint y = 10;\nint *ptr = &x;\n*ptr = y;\ncout << x << endl;",
+                "options": [
+                    "5",
+                    "10",
+                    "0",
+                    "1"
+                ],
+                "answer": "10"
+            },
+            {
+                "question": "What is the correct syntax for a for loop in C++?",
+                "options": [
+                    "for (int i = 0; i < 10; i++) {}",
+                    "for (int i = 10; i > 0; i--) {}",
+                    "for (int i = 1; i <= 10; i++) {}",
+                    "All of the above"
+                ],
+                "answer": "All of the above"
+            },
+            {
+                "question": "What is the output of the following code?\n\nint arr[] = {1, 2, 3};\nint *ptr = arr;\ncout << *ptr << endl;",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "syntax error"
+                ],
+                "answer": "1"
+            },
+            {
+                "question": "What is the correct syntax for declaring a function in C++?",
+                "options": [
+                    "int myFunction() {}",
+                    "function myFunction() {}",
+                    "void myFunction() {}",
+                    "All of the above"
+                ],
+                "answer": "All of the above"
+            },
+            {
+                "question": "What is the correct way to pass arguments to a function in C++?",
+                "options": [
+                    "Pass by reference",
+                    "Pass by value",
+                    "Pass by pointer",
+                    "All of the above"
+                ],
+                "answer": "All of the above"
+            },
+            {
+                "question": "What is the output of the following code?\n\nint x = 5;\nint &ref = x;\ncout << ref << endl;",
+                "options": [
+                    "5",
+                    "10",
+                    "0",
+                    "1"
+                ],
+                "answer": "5"
+            },
+            {
+                "question": "What is the difference between a struct and a class in C++?",
+                "options": [
+                    "There is no difference",
+                    "Structs can only have public members, while classes can have private members",
+                    "Classes can only have public members, while structs can have private members",
+                    "Structs are used for data storage, while classes are used for encapsulation and abstraction"
+                ],
+                "answer": "Structs can only have public members, while classes can have private members"
+            },
+            {
+                "question": "What is the correct syntax for inheriting from a base class in C++?",
+                "options": [
+                    "class Derived : private Base {}",
+                    "class Derived extends Base {}",
+                    "class Derived : public Base {}",
+                    "All of the above"
+                ],
+                "answer": "class Derived : public Base {}"
+            },
+            {
+                "question": "What is a virtual function in C++?",
+                "options": [
+                    "A function that is declared as virtual in the base class and can be overridden in the derived class",
+                    "A function that is declared as static in the base class and can be overridden in the derived class",
+                    "A function that is declared as const in the base class and cannot be overridden in the derived class",
+                    "A function that is declared as friend in the base class and can be overridden in the derived class"
+                ],
+                "answer": "A function that is declared as virtual in the base class and can be overridden in the derived class"
+            },
+            {
+                "question": "What is the purpose of the 'const' keyword in C++?",
+                "options": [
+                    "To declare a variable as constant and prevent it from being modified",
+                    "To declare a variable as a constant pointer",
+                    "To declare a variable as a constant reference",
+                    "All of the above"
+                ],
+                "answer": "To declare a variable as constant and prevent it from being modified"
+            }
+        ]
+    },
+    {
+        "quizTitle": "Ruby Quiz",
+        "questions": [
+            {
+                "question": "What is the syntax for creating a new array in Ruby?",
+                "options": [
+                    "[1, 2, 3]",
+                    "{1, 2, 3}",
+                    "(1, 2, 3)",
+                    "array(1, 2, 3)"
+                ],
+                "answer": "[1, 2, 3]"
+            },
+            {
+                "question": "What is the method used to add an element to the end of an array in Ruby?",
+                "options": [
+                    ".push()",
+                    ".append()",
+                    ".add()",
+                    ".insert()"
+                ],
+                "answer": ".push()"
+            },
+            {
+                "question": "What is the method used to remove the last element from an array in Ruby?",
+                "options": [
+                    ".pop()",
+                    ".shift()",
+                    ".delete()",
+                    ".removeLast()"
+                ],
+                "answer": ".pop()"
+            },
+            {
+                "question": "What is the method used to join two arrays in Ruby?",
+                "options": [
+                    ".concat()",
+                    ".join()",
+                    ".merge()",
+                    ".append()"
+                ],
+                "answer": ".concat()"
+            },
+            {
+                "question": "What is the syntax for accessing the first element of an array in Ruby?",
+                "options": [
+                    "array[0]",
+                    "array(0)",
+                    "array.first",
+                    "array.get(0)"
+                ],
+                "answer": "array[0]"
+            },
+            {
+                "question": "What is the syntax for accessing the last element of an array in Ruby?",
+                "options": [
+                    "array[-1]",
+                    "array.last",
+                    "array.get(-1)",
+                    "array.size()"
+                ],
+                "answer": "array[-1]"
+            },
+            {
+                "question": "What is the method used to check if an array includes a specific element in Ruby?",
+                "options": [
+                    ".contains()",
+                    ".include?()",
+                    ".has()",
+                    ".find()"
+                ],
+                "answer": ".include?()"
+            },
+            {
+                "question": "What is the method used to remove all elements from an array in Ruby?",
+                "options": [
+                    ".clear()",
+                    ".delete_all()",
+                    ".remove()",
+                    ".pop_all()"
+                ],
+                "answer": ".clear()"
+            },
+            {
+                "question": "What is the method used to return a new array containing only the elements that satisfy a certain condition in Ruby?",
+                "options": [
+                    ".select()",
+                    ".filter()",
+                    ".map()",
+                    ".reduce()"
+                ],
+                "answer": ".select()"
+            },
+            {
+                "question": "What is the method used to return a new array with the elements in reverse order in Ruby?",
+                "options": [
+                    ".reverse()",
+                    ".backwards()",
+                    ".invert()",
+                    ".flip()"
+                ],
+                "answer": ".reverse()"
+            },
+            {
+                "question": "What is the method used to sort an array in ascending order in Ruby?",
+                "options": [
+                    ".sort()",
+                    ".order()",
+                    ".arrange()",
+                    ".group()"
+                ],
+                "answer": ".sort()"
+            },
+            {
+                "question": "What is the method used to convert an array into a string in Ruby?",
+                "options": [
+                    ".join()",
+                    ".concat()",
+                    ".toString()",
+                    ".stringify()"
+                ],
+                "answer": ".join()"
+            },
+            {
+                "question": "What is the method used to return a new array containing the unique elements of an array in Ruby?",
+                "options": [
+                    ".unique()",
+                    ".uniq()",
+                    ".distinct()",
+                    ".uniqueElements()"
+                ],
+                "answer": ".uniq()"
+            },
+            {
+                "question": "What is the method used to return the number of elements in an array in Ruby?",
+                "options": [
+                    ".length()",
+                    ".count()",
+                    ".size()",
+                    ".number()"
+                ],
+                "answer": ".size()"
+            },
+            {
+                "question": "What is the method used to remove all occurrences of a specific element from an array in Ruby?",
+                "options": [
+                    ".remove()",
+                    ".delete()",
+                    ".erase()",
+                    ".filter()"
+                ],
+                "answer": ".delete()"
+            }
+        ]
+    },
+    {
+        "quizTitle": "TypeScript Quiz",
+        "questions": [
+            {
+                "question": "What is TypeScript?",
+                "options": [
+                    "A scripting language",
+                    "A markup language",
+                    "A programming language",
+                    "A styling language"
+                ],
+                "answer": "A programming language"
+            },
+            {
+                "question": "What is the file extension for TypeScript files?",
+                "options": [
+                    ".ts",
+                    ".js",
+                    ".html",
+                    ".css"
+                ],
+                "answer": ".ts"
+            },
+            {
+                "question": "What is the command to compile a TypeScript file to a JavaScript file?",
+                "options": [
+                    "tsc",
+                    "ts-compile",
+                    "typescript",
+                    "compile-ts"
+                ],
+                "answer": "tsc"
+            },
+            {
+                "question": "What is the syntax for declaring a variable with a specific type in TypeScript?",
+                "options": [
+                    "var x: string = 'hello'",
+                    "var x = 'hello'",
+                    "string x = 'hello'",
+                    "x: string = 'hello'"
+                ],
+                "answer": "var x: string = 'hello'"
+            },
+            {
+                "question": "What is the syntax for declaring a function with a specific return type in TypeScript?",
+                "options": [
+                    "function add(a: number, b: number): number { }",
+                    "function add(a, b) { }",
+                    "function add(a: number, b: number) { }",
+                    "function add(a, b): number { }"
+                ],
+                "answer": "function add(a: number, b: number): number { }"
+            },
+            {
+                "question": "What is the syntax for declaring an interface in TypeScript?",
+                "options": [
+                    "interface MyInterface { }",
+                    "class MyInterface { }",
+                    "MyInterface { }",
+                    "interface = MyInterface { }"
+                ],
+                "answer": "interface MyInterface { }"
+            },
+            {
+                "question": "What is the syntax for declaring a class in TypeScript?",
+                "options": [
+                    "class MyClass { }",
+                    "MyClass { }",
+                    "interface MyClass { }",
+                    "class = MyClass { }"
+                ],
+                "answer": "class MyClass { }"
+            },
+            {
+                "question": "What is the keyword used to extend a class in TypeScript?",
+                "options": [
+                    "extends",
+                    "implements",
+                    "inherits",
+                    "extendsfrom"
+                ],
+                "answer": "extends"
+            },
+            {
+                "question": "What is the syntax for declaring a class method in TypeScript?",
+                "options": [
+                    "methodName(): returnType { }",
+                    "returnType methodName() { }",
+                    "methodName { }",
+                    "methodName(returnType) { }"
+                ],
+                "answer": "methodName(): returnType { }"
+            },
+            {
+                "question": "What is the syntax for declaring a class property in TypeScript?",
+                "options": [
+                    "propertyName: propertyType;",
+                    "propertyName = propertyType;",
+                    "propertyType propertyName;",
+                    "propertyType = propertyName;"
+                ],
+                "answer": "propertyName: propertyType;"
+            },
+            {
+                "question": "What is the syntax for declaring a type alias in TypeScript?",
+                "options": [
+                    "type MyType = number;",
+                    "alias MyType = number;",
+                    "MyType = number;",
+                    "MyType: number;"
+                ],
+                "answer": "type MyType = number;"
+            },
+            {
+                "question": "What is the syntax for declaring a union type in TypeScript?",
+                "options": [
+                    "type MyType = string | number;",
+                    "type MyType = string & number;",
+                    "type MyType = string + number;",
+                    "type MyType = string * number;"
+                ],
+                "answer": "type MyType = string | number;"
+            },
+            {
+                "question": "What is the difference between 'undefined' and 'null' in TypeScript?",
+                "options": [
+                    "They are interchangeable and can be used interchangeably",
+                    "'undefined' means a variable has been declared but not assigned a value, while 'null' is an assignment value representing no value or no object",
+                    "'null' means a variable has been declared but not assigned a value, while 'undefined' is an assignment value representing no value or no object",
+                    "There is no difference, they both represent the absence of a value"
+                ],
+                "answer": "'undefined' means a variable has been declared but not assigned a value, while 'null' is an assignment value representing no value or no object"
+            },
+            {
+                "question": "What is a 'type assertion' in TypeScript?",
+                "options": [
+                    "It allows you to specify the type of a value when TypeScript cannot determine the type on its own",
+                    "It allows you to change the type of a value at runtime",
+                    "It allows you to assert that a variable is of a certain type, even if TypeScript cannot determine the type on its own",
+                    "It allows you to assert that a variable is not of a certain type"
+                ],
+                "answer": "It allows you to assert that a variable is of a certain type, even if TypeScript cannot determine the type on its own"
+            },
+            {
+                "question": "What is an 'enum' in TypeScript?",
+                "options": [
+                    "An enumerated list of strings",
+                    "A way to define a set of named constants",
+                    "A way to define a set of functions",
+                    "A way to define a set of classes"
+                ],
+                "answer": "A way to define a set of named constants"
+            }
+        ]
+    },
+    {
+        "quizTitle": "Dart Quiz",
+        "questions": [
+            {
+                "question": "What is Dart?",
+                "options": [
+                    "A scripting language",
+                    "A markup language",
+                    "A programming language",
+                    "A styling language"
+                ],
+                "answer": "A programming language"
+            },
+            {
+                "question": "What is the name of the virtual machine used to run Dart code?",
+                "options": [
+                    "V8",
+                    "DartVM",
+                    "Node.js",
+                    "JVM"
+                ],
+                "answer": "DartVM"
+            },
+            {
+                "question": "Which of the following is not a valid data type in Dart?",
+                "options": [
+                    "int",
+                    "double",
+                    "float",
+                    "String"
+                ],
+                "answer": "float"
+            },
+            {
+                "question": "What is the syntax for declaring a variable with a specific type in Dart?",
+                "options": [
+                    "var x = 'hello';",
+                    "String x = 'hello';",
+                    "x: String = 'hello';",
+                    "String x;"
+                ],
+                "answer": "String x = 'hello';"
+            },
+            {
+                "question": "What is the syntax for declaring a function with a specific return type in Dart?",
+                "options": [
+                    "int add(int a, int b) { }",
+                    "add(int a, int b): int { }",
+                    "function add(a: int, b: int) -> int { }",
+                    "int add(a, b) { }"
+                ],
+                "answer": "int add(int a, int b) { }"
+            },
+            {
+                "question": "What is the syntax for declaring a class in Dart?",
+                "options": [
+                    "class MyClass { }",
+                    "MyClass { }",
+                    "interface MyClass { }",
+                    "class = MyClass { }"
+                ],
+                "answer": "class MyClass { }"
+            },
+            {
+                "question": "What is the keyword used to extend a class in Dart?",
+                "options": [
+                    "extends",
+                    "implements",
+                    "inherits",
+                    "extendsfrom"
+                ],
+                "answer": "extends"
+            },
+            {
+                "question": "What is the syntax for declaring a class method in Dart?",
+                "options": [
+                    "returnType methodName() { }",
+                    "methodName() { }",
+                    "methodName(returnType) { }",
+                    "methodName(): returnType { }"
+                ],
+                "answer": "returnType methodName() { }"
+            },
+            {
+                "question": "What is the syntax for declaring a class property in Dart?",
+                "options": [
+                    "propertyType propertyName;",
+                    "propertyName = propertyType;",
+                    "propertyType propertyName();",
+                    "propertyType propertyName;"
+                ],
+                "answer": "propertyType propertyName;"
+            },
+            {
+                "question": "What is the syntax for declaring a named constructor in Dart?",
+                "options": [
+                    "MyClass.namedConstructor() { }",
+                    "MyClass.namedConstructor { }",
+                    "MyClass(): namedConstructor { }",
+                    "MyClass(): namedConstructor() { }"
+                ],
+                "answer": "MyClass.namedConstructor() { }"
+            },
+            {
+                "question": "What is the syntax for declaring a constant in Dart?",
+                "options": [
+                    "const x = 5;",
+                    "var x = 5;",
+                    "final x = 5;",
+                    "let x = 5;"
+                ],
+                "answer": "final x = 5;"
+            },
+            {
+                "question": "What is the difference between final and const in Dart?",
+                "options": [
+                    "final is evaluated at runtime, while const is evaluated at compile time",
+                    "final can be reassigned, while const cannot be reassigned",
+                    "const is evaluated at runtime, while final is evaluated at compile time",
+                    "there is no difference, they can be used interchangeably"
+                ],
+                "answer": "final can be reassigned, while const cannot be reassigned"
+            },
+            {
+                "question": "What is the syntax for a for loop in Dart?",
+                "options": [
+                    "for (var i = 0; i < 5; i++) { }",
+                    "for (i = 0; i < 5; i++) { }",
+                    "for (var i = 0; i < 5) { }",
+                    "for (var i < 5; i++) { }"
+                ],
+                "answer": "for (var i = 0; i < 5; i++) { }"
+            },
+            {
+                "question": "What is the syntax for a while loop in Dart?",
+                "options": [
+                    "while (i < 5) { }",
+                    "while i < 5 { }",
+                    "while (i < 5): { }",
+                    "while i < 5: { }"
+                ],
+                "answer": "while (i < 5) { }"
+            },
+            {
+                "question": "What is the syntax for a switch statement in Dart?",
+                "options": [
+                    "switch (value) { case 1: break; }",
+                    "switch (value) { 1: break; }",
+                    "switch (value) { case 1 { break; } }",
+                    "switch (value) { 1 { break; } }"
+                ],
+                "answer": "switch (value) { case 1: break; }"
+            }
+        ]
+    },
+    {
+        "quizTitle": "C# Quiz",
+        "questions": [
+            {
+                "question": "What is C#?",
+                "options": [
+                    "A programming language",
+                    "A markup language",
+                    "A styling language",
+                    "A scripting language"
+                ],
+                "answer": "A programming language"
+            },
+            {
+                "question": "What is the latest version of C#?",
+                "options": [
+                    "C# 6.0",
+                    "C# 7.0",
+                    "C# 8.0",
+                    "C# 9.0"
+                ],
+                "answer": "C# 9.0"
+            },
+            {
+                "question": "What is the name of the C# compiler?",
+                "options": [
+                    "Visual Studio Compiler",
+                    "Roslyn Compiler",
+                    "Sharp Compiler",
+                    "C# Compiler"
+                ],
+                "answer": "Roslyn Compiler"
+            },
+            {
+                "question": "What is the syntax for declaring a variable with a specific type in C#?",
+                "options": [
+                    "var x = 'hello';",
+                    "String x = 'hello';",
+                    "x: String = 'hello';",
+                    "string x;"
+                ],
+                "answer": "string x;"
+            },
+            {
+                "question": "What is the syntax for declaring a function with a specific return type in C#?",
+                "options": [
+                    "int add(int a, int b) { }",
+                    "add(int a, int b): int { }",
+                    "function add(a: int, b: int) -> int { }",
+                    "int add(a, b) { }"
+                ],
+                "answer": "int add(int a, int b) { }"
+            },
+            {
+                "question": "What is the syntax for declaring a class in C#?",
+                "options": [
+                    "class MyClass { }",
+                    "MyClass { }",
+                    "interface MyClass { }",
+                    "class = MyClass { }"
+                ],
+                "answer": "class MyClass { }"
+            },
+            {
+                "question": "What is the keyword used to extend a class in C#?",
+                "options": [
+                    "extends",
+                    "implements",
+                    "inherits",
+                    "extendsfrom"
+                ],
+                "answer": "inherits"
+            },
+            {
+                "question": "What is the syntax for declaring a class method in C#?",
+                "options": [
+                    "returnType methodName() { }",
+                    "methodName() { }",
+                    "methodName(returnType) { }",
+                    "methodName(): returnType { }"
+                ],
+                "answer": "returnType methodName() { }"
+            },
+            {
+                "question": "What is the syntax for declaring a class property in C#?",
+                "options": [
+                    "propertyType propertyName;",
+                    "propertyName = propertyType;",
+                    "propertyType propertyName();",
+                    "propertyType propertyName;"
+                ],
+                "answer": "propertyType propertyName { get; set; }"
+            },
+            {
+                "question": "What is the syntax for declaring a named constructor in C#?",
+                "options": [
+                    "MyClass.namedConstructor() { }",
+                    "MyClass.namedConstructor { }",
+                    "MyClass(): namedConstructor { }",
+                    "MyClass(): namedConstructor() { }"
+                ],
+                "answer": "MyClass() { }"
+            },
+            {
+                "question": "What is the syntax for declaring a constant in C#?",
+                "options": [
+                    "const x = 5;",
+                    "var x = 5;",
+                    "readonly int x = 5;",
+                    "let x = 5;"
+                ],
+                "answer": "readonly int x = 5;"
+            },
+            {
+                "question": "What is the syntax for a foreach loop in C#?",
+                "options": [
+                    "foreach (var item in collection) { }",
+                    "for (var item in collection) { }",
+                    "foreach (item in collection) { }",
+                    "for (item in collection) { }"
+                ],
+                "answer": "foreach (var item in collection) { }"
+            },
+            {
+                "question": "What is the syntax for a while loop in C#?",
+                "options": [
+                    "while (condition) { }",
+                    "for (condition) { }",
+                    "while (var i < 10) { }",
+                    "while (i < 10) { }"
+                ],
+                "answer": "while (condition) { }"
+            },
+            {
+                "question": "What is the syntax for a switch statement in C#?",
+                "options": [
+                    "switch (expression) { case value: }",
+                    "switch (expression): case value: ",
+                    "case value: switch (expression) { }",
+                    "case value: { switch (expression) }"
+                ],
+                "answer": "switch (expression) { case value: }"
+            },
+            {
+                "question": "What is the keyword used to refer to the current instance of a class in C#?",
+                "options": [
+                    "this",
+                    "self",
+                    "me",
+                    "myself"
+                ],
+                "answer": "this"
+            }
+        ]
+    }
+]

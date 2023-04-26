@@ -1,0 +1,163 @@
+* {
+    font-family: "Orbitron", sans-serif;
+}
+
+header {
+    background-color: rgb(12, 121, 121);
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .5vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 81.5vh;
+}
+
+.quizzNameConatiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 60%;
+    max-height: 80vh;
+    margin: 0 auto;
+    overflow: auto;
+    box-shadow: 0 0 30px #bebebe, -15px -15px 30px #ffffff;
+    display: none;
+}
+
+.quizzName {
+    flex-basis: 20%;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 0 30px #bebebe;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.quizesName {
+    width: 50vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkcyan;
+    margin: 1vh 0;
+    border-radius: 10px;
+}
+
+.quizzQuestionsContainer {
+    box-shadow: 0 0 30px #bebebe, -15px -15px 30px #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    display: none;
+}
+
+.questionNumber {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    align-items: center;
+    background-color: darkcyan;
+    margin: .5vh 10vw;
+    border-radius: 15px;
+}
+
+.question {
+    box-shadow: 0 0 10px #bebebe;
+    margin: 1vw;
+    border-radius: 4px;
+}
+
+.question h4 {
+    text-align: center;
+    max-width: 50vw;
+    overflow-wrap: break-word;
+    margin: 2vh 1vw;
+}
+
+.answers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.answers button {
+    box-shadow: 0 0 10px #4f4b4b, -15px -15px 30px #ffffff;
+    border-radius: 6px;
+    padding: 10px;
+    width: 40vw;
+    margin: 10px;
+    overflow-wrap: break-word;
+}
+
+.resultContainer{
+    box-shadow: 0 0 30px #bebebe, -15px -15px 30px #ffffff;
+    padding: 1%;
+    border-radius: 15px;
+}
+
+.resultHeading {
+    text-align: center;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkcyan;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.result {
+    text-align: center;
+    padding: 2%;
+    margin: 2%;
+}
+
+.reloadQuiz {
+    text-align: center;
+}
+
+button {
+    box-shadow: 0 0 10px #4f4b4b, -15px -15px 30px #ffffff;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    border: green solid;
+    background-color: rgb(12, 121, 121);
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .5vh;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
