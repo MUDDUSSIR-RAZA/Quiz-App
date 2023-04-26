@@ -1,6 +1,6 @@
 [
     {
-        "quizName": "HTML Quiz",
+        "quizTitle": "HTML Quiz",
         "questions": [
             {
                 "question": "What does HTML stand for?",
@@ -155,7 +155,7 @@
         ]
     },
     {
-        "quizName": "CSS Quiz",
+        "quizTitle": "CSS Quiz",
         "questions": [
             {
                 "question": "What does CSS stand for?",
