@@ -1,9 +1,9 @@
 @media (max-width: 730px) {
-    .quizzNameConatiner {
+    .quizzNamecontainer {
         max-width: 80%;
     }
 
-    .quizesName {
+    .quizzesName {
         width: 70vw;
     }
 
@@ -37,11 +37,11 @@
 }
 
 @media (max-width: 540px) {
-    .quizzNameConatiner {
+    .quizzNamecontainer {
         max-width: 95%;
     }
 
-    .quizesName {
+    .quizzesName {
         width: 87vw;
     }
 
@@ -51,11 +51,11 @@
 }
 
 @media (max-width : 460px) {
-    .quizzNameConatiner {
+    .quizzNamecontainer {
         max-height: 73vh;
     }
 
-    .quizesName {
+    .quizzesName {
         height: 8vh;
         font-size: 11px;
         width: 70vw;
@@ -68,7 +68,7 @@
         padding: 3px;
     }
 
-    .quizesName {
+    .quizzesName {
         width: 75vw;
     }
 
