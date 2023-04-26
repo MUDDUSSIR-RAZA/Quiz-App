@@ -3,10 +3,9 @@ const quizzQuestionsContainer = document.querySelector(".quizzQuestionsContainer
 const resultContainer = document.querySelector(".resultContainer");
 
 
-
 class Quiz {
     constructor(questions) {
-        this.questions = questions;
+        this.questions = Quiz.shuffleArray(questions.questions);
         this.currentQuestionIndex = 0;
         this.score = 0;
         this.displayQuestions();
@@ -14,11 +13,10 @@ class Quiz {
 
     displayQuestions() {
         quizzQuestionsContainer.innerHTML = "";
-        const currentObject = this.questions.questions;
+        const currentObject = this.questions;
         const currentQuestion = currentObject[this.currentQuestionIndex];
         const ansDiv = document.createElement("div");
         ansDiv.className = ("answers");
-        // console.log(currentObject);
         quizzQuestionsContainer.innerHTML = `
         <div class="questionNumber">
         <h3>
@@ -31,7 +29,8 @@ class Quiz {
         </h4>
         </div>
         `;
-        currentQuestion.options.forEach((questions) => {
+        const shufelledOptions = Quiz.shuffleArray(currentQuestion.options);
+        shufelledOptions.forEach((questions) => {
             const button = document.createElement("button");
             button.innerText = questions;
             button.addEventListener("click", this.checkAnswer.bind(this));
@@ -42,17 +41,13 @@ class Quiz {
 
     checkAnswer(event) {
         const selectAnswer = event.target.textContent;
-        const currentObject = this.questions.questions;
-        // console.log(currentObject);
+        const currentObject = this.questions;
         const currentQuestion = currentObject[this.currentQuestionIndex];
         if (selectAnswer === currentQuestion.answer) {
             this.score++;
         }
 
         this.currentQuestionIndex++;
-
-        console.log(this.currentQuestionIndex);
-        console.log(this.score);
 
         if (this.currentQuestionIndex < currentObject.length) {
             this.displayQuestions();
@@ -89,6 +84,10 @@ class Quiz {
             resultContainer.style.display = "none";
         });
     }
+
+     static shuffleArray(arr) {
+    return [...arr].sort(() => Math.random() - 0.5);
+  }
 }
 
 
@@ -102,6 +101,12 @@ const loadQuizz = (questions) => {
 const loadAllQuizzes = async () => {
     const response = await fetch("./quiz.json");
     const quizzes = await response.json();
+
+    quizzes.sort((a, b) => {
+        if (a.quizTitle < b.quizTitle) return -1;
+        if (a.quizTitle > b.quizTitle) return 1;
+        return 0;
+    });
 
     quizzes.forEach((quiz) => {
         const div = document.createElement("div");
