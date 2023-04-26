@@ -1707,5 +1707,470 @@
                 "answer": "this"
             }
         ]
+    },
+    {
+        "quizTitle": "Objective-C Array Quiz",
+        "questions": [
+            {
+                "question": "What is an array in Objective-C?",
+                "options": [
+                    "A collection of objects of different types",
+                    "A collection of objects of the same type",
+                    "A collection of primitive data types",
+                    "A collection of pointers"
+                ],
+                "answer": "A collection of objects of the same type"
+            },
+            {
+                "question": "How do you declare an array in Objective-C?",
+                "options": [
+                    "NSMutableArray *myArray;",
+                    "NSArray myArray[];",
+                    "NSArray *myArray;",
+                    "int myArray[];"
+                ],
+                "answer": "NSArray *myArray;"
+            },
+            {
+                "question": "What is the difference between NSArray and NSMutableArray?",
+                "options": [
+                    "NSArray is immutable and cannot be changed, while NSMutableArray is mutable and can be changed",
+                    "NSArray can only store objects of the same type, while NSMutableArray can store objects of different types",
+                    "NSArray can store only a fixed number of objects, while NSMutableArray can store any number of objects",
+                    "There is no difference between NSArray and NSMutableArray"
+                ],
+                "answer": "NSArray is immutable and cannot be changed, while NSMutableArray is mutable and can be changed"
+            },
+            {
+                "question": "What is the syntax to add an object to an NSMutableArray?",
+                "options": [
+                    "addObject:",
+                    "addObject",
+                    "appendObject:",
+                    "appendObject"
+                ],
+                "answer": "addObject:"
+            },
+            {
+                "question": "What is the syntax to retrieve an object from an NSArray?",
+                "options": [
+                    "objectAtIndex:",
+                    "objectAtIndex",
+                    "getObject:",
+                    "getObject"
+                ],
+                "answer": "objectAtIndex:"
+            },
+            {
+                "question": "What is the syntax to remove an object from an NSMutableArray?",
+                "options": [
+                    "removeObject:",
+                    "removeObject",
+                    "deleteObject:",
+                    "deleteObject"
+                ],
+                "answer": "removeObject:"
+            },
+            {
+                "question": "What is the syntax to get the number of objects in an NSArray?",
+                "options": [
+                    "count",
+                    "length",
+                    "size",
+                    "getCount"
+                ],
+                "answer": "count"
+            },
+            {
+                "question": "What is the syntax to insert an object into an NSMutableArray at a specific index?",
+                "options": [
+                    "insertObject:atIndex:",
+                    "insertObjectAtIndex:",
+                    "addObject:atIndex:",
+                    "addObjectAtIndex:"
+                ],
+                "answer": "insertObject:atIndex:"
+            },
+            {
+                "question": "What is the syntax to replace an object in an NSMutableArray at a specific index?",
+                "options": [
+                    "replaceObject:atIndex:",
+                    "replaceObjectAtIndex:withObject:",
+                    "setObject:atIndex:",
+                    "setObjectAtIndex:"
+                ],
+                "answer": "replaceObjectAtIndex:withObject:"
+            },
+            {
+                "question": "What is the syntax to sort an NSMutableArray?",
+                "options": [
+                    "sort",
+                    "sortArray",
+                    "sortUsingComparator:",
+                    "sortUsingFunction:"
+                ],
+                "answer": "sortUsingComparator:"
+            },
+            {
+                "question": "What is the syntax to create an NSArray with a fixed number of objects?",
+                "options": [
+                    "initWithObjects:",
+                    "initWithObjects:count:",
+                    "initWithCapacity:",
+                    "initWithSize:"
+                ],
+                "answer": "initWithObjects:count:"
+            },
+            {
+                "question": "What is the syntax to create an empty NSMutableArray with a specific capacity?",
+                "options": [
+                    "init",
+                    "initWithCapacity:",
+                    "initWithSize:",
+                    "initEmptyWithCapacity:"
+                ],
+                "answer": "initWithCapacity:"
+            },
+            {
+                "question": "What is the syntax to check if an object is present in an NSArray?",
+                "options": [
+                    "containsObject:",
+                    "contains:",
+                    "checkObject:",
+                    "checkIfContains:"
+                ],
+                "answer": "containsObject:"
+            },
+            {
+                "question": "What is the syntax to create an NSArray by combining two other NSArrays?",
+                "options": [
+                    "combineArray:withArray:",
+                    "arrayByMergingArray:",
+                    "mergeArray:",
+                    "arrayByAddingObjectsFromArray:"
+                ],
+                "answer": "arrayByAddingObjectsFromArray:"
+            },
+            {
+                "question": "What is the syntax to create an NSArray with the same object repeated multiple times?",
+                "options": [
+                    "initWithObject:count:",
+                    "initWithObject:repeats:",
+                    "initWithRepeatedObject:",
+                    "initWithRepeatedObject:count:"
+                ],
+                "answer": "initWithObject:count:"
+            }
+        ]
+    },
+    {
+        "quizTitle": "Assembly Quiz",
+        "questions": [
+            {
+                "question": "What does the term 'CPU' stand for?",
+                "options": [
+                    "Central Processing Unit",
+                    "Control Processing Unit",
+                    "Circuit Processing Unit",
+                    "Computing Processing Unit"
+                ],
+                "answer": "Central Processing Unit"
+            },
+            {
+                "question": "What is the main function of the CPU?",
+                "options": [
+                    "To execute instructions",
+                    "To store data",
+                    "To generate output",
+                    "To receive input"
+                ],
+                "answer": "To execute instructions"
+            },
+            {
+                "question": "What is the purpose of the assembler in the development process?",
+                "options": [
+                    "To convert assembly language to machine code",
+                    "To convert machine code to assembly language",
+                    "To execute the program",
+                    "To debug the program"
+                ],
+                "answer": "To convert assembly language to machine code"
+            },
+            {
+                "question": "What is the name of the register that stores the memory address of the next instruction to be executed?",
+                "options": [
+                    "Instruction Pointer",
+                    "Stack Pointer",
+                    "Program Counter",
+                    "Memory Address Register"
+                ],
+                "answer": "Program Counter"
+            },
+            {
+                "question": "What is the term for the set of rules that govern the format and structure of an assembly language program?",
+                "options": [
+                    "Syntax",
+                    "Semantics",
+                    "Grammar",
+                    "Vocabulary"
+                ],
+                "answer": "Syntax"
+            },
+            {
+                "question": "What is the name of the register that stores the return address for a subroutine call?",
+                "options": [
+                    "Stack Pointer",
+                    "Instruction Pointer",
+                    "Program Counter",
+                    "Link Register"
+                ],
+                "answer": "Link Register"
+            },
+            {
+                "question": "What is the name of the instruction that transfers data from memory to a register?",
+                "options": [
+                    "MOV",
+                    "ADD",
+                    "SUB",
+                    "LDR"
+                ],
+                "answer": "LDR"
+            },
+            {
+                "question": "What is the name of the instruction that transfers data from a register to memory?",
+                "options": [
+                    "MOV",
+                    "ADD",
+                    "SUB",
+                    "STR"
+                ],
+                "answer": "STR"
+            },
+            {
+                "question": "What is the name of the instruction that transfers control to a subroutine?",
+                "options": [
+                    "BRANCH",
+                    "JUMP",
+                    "CALL",
+                    "RETURN"
+                ],
+                "answer": "CALL"
+            },
+            {
+                "question": "What is the name of the instruction that performs an arithmetic addition operation?",
+                "options": [
+                    "MOV",
+                    "ADD",
+                    "SUB",
+                    "MUL"
+                ],
+                "answer": "ADD"
+            },
+            {
+                "question": "What is the name of the instruction that performs an arithmetic subtraction operation?",
+                "options": [
+                    "MOV",
+                    "ADD",
+                    "SUB",
+                    "DIV"
+                ],
+                "answer": "SUB"
+            },
+            {
+                "question": "What is the name of the instruction that performs an arithmetic multiplication operation?",
+                "options": [
+                    "MOV",
+                    "ADD",
+                    "MUL",
+                    "DIV"
+                ],
+                "answer": "MUL"
+            },
+            {
+                "question": "What is the name of the instruction that performs a bitwise logical AND operation?",
+                "options": [
+                    "AND",
+                    "OR",
+                    "NOT",
+                    "XOR"
+                ],
+                "answer": "AND"
+            },
+            {
+                "question": "What is the name of the instruction that performs a bitwise logical OR operation?",
+                "options": [
+                    "AND",
+                    "OR",
+                    "NOT",
+                    "XOR"
+                ],
+                "answer": "OR"
+            },
+            {
+                "question": "What is the name of the instruction that performs a bitwise logical NOT operation?",
+                "options": [
+                    "AND",
+                    "OR",
+                    "NOT",
+                    "XOR"
+                ],
+                "answer": "NOT"
+            }
+        ]
+    },
+    {
+        "quizTitle": "Pascal Quiz",
+        "questions": [
+            {
+                "question": "What is the correct syntax to declare a variable in Pascal?",
+                "options": [
+                    "var myVariable : Integer;",
+                    "var myVariable = Integer;",
+                    "Integer myVariable;",
+                    "myVariable : Integer;"
+                ],
+                "answer": "var myVariable : Integer;"
+            },
+            {
+                "question": "What is the name of the function that is used to read input from the user in Pascal?",
+                "options": [
+                    "input",
+                    "get",
+                    "read",
+                    "scanf"
+                ],
+                "answer": "read"
+            },
+            {
+                "question": "What is the name of the function that is used to write output to the screen in Pascal?",
+                "options": [
+                    "output",
+                    "put",
+                    "write",
+                    "printf"
+                ],
+                "answer": "write"
+            },
+            {
+                "question": "What is the keyword used to define a function in Pascal?",
+                "options": [
+                    "method",
+                    "function",
+                    "procedure",
+                    "subroutine"
+                ],
+                "answer": "function"
+            },
+            {
+                "question": "What is the keyword used to define a procedure in Pascal?",
+                "options": [
+                    "method",
+                    "function",
+                    "procedure",
+                    "subroutine"
+                ],
+                "answer": "procedure"
+            },
+            {
+                "question": "What is the syntax to create an if-else statement in Pascal?",
+                "options": [
+                    "if condition then\n   statement1\nelse\n   statement2",
+                    "if condition then\n   statement1\nendif\nstatement2",
+                    "if condition then statement1\nelse statement2",
+                    "if (condition) {\n   statement1;\n} else {\n   statement2;\n}"
+                ],
+                "answer": "if condition then\n   statement1\nelse\n   statement2"
+            },
+            {
+                "question": "What is the syntax to create a for loop in Pascal?",
+                "options": [
+                    "for i := 1 to 10 do\n   statement",
+                    "for (i = 1; i <= 10; i++) {\n   statement;\n}",
+                    "for (i = 10; i >= 1; i--) {\n   statement;\n}",
+                    "for i := 10 downto 1 do\n   statement"
+                ],
+                "answer": "for i := 1 to 10 do\n   statement"
+            },
+            {
+                "question": "What is the syntax to create a while loop in Pascal?",
+                "options": [
+                    "while (condition) do\n   statement",
+                    "while (condition) {\n   statement;\n}",
+                    "for i := 1 to 10 do\n   statement",
+                    "for i := 10 downto 1 do\n   statement"
+                ],
+                "answer": "while (condition) do\n   statement"
+            },
+            {
+                "question": "What is the syntax to create a repeat-until loop in Pascal?",
+                "options": [
+                    "repeat\n   statement\nuntil (condition)",
+                    "repeat (condition) {\n   statement;\n}",
+                    "for i := 1 to 10 do\n   statement",
+                    "for i := 10 downto 1 do\n   statement"
+                ],
+                "answer": "repeat\n   statement\nuntil (condition)"
+            },
+            {
+                "question": "Which keyword is used to define a constant in Pascal?",
+                "options": [
+                    "const",
+                    "var",
+                    "type",
+                    "begin"
+                ],
+                "answer": "const"
+            },
+            {
+                "question": "What is the syntax to declare an array in Pascal?",
+                "options": [
+                    "array[1..10] of int",
+                    "array(1..10) of int",
+                    "int array[10]",
+                    "int array(10)"
+                ],
+                "answer": "array[1..10] of int"
+            },
+            {
+                "question": "What is the syntax to define a function in Pascal?",
+                "options": [
+                    "function functionName() : returnType;\nbegin\n statement;\nend;",
+                    "functionName() : returnType {\n statement;\n}",
+                    "def functionName() -> returnType:\n statement",
+                    "void functionName() {\n statement;\n}"
+                ],
+                "answer": "function functionName() : returnType;\nbegin\n statement;\nend;"
+            },
+            {
+                "question": "Which statement is used to exit a loop in Pascal?",
+                "options": [
+                    "break",
+                    "continue",
+                    "exit",
+                    "return"
+                ],
+                "answer": "exit"
+            },
+            {
+                "question": "Which statement is used to allocate memory for a variable in Pascal?",
+                "options": [
+                    "malloc",
+                    "calloc",
+                    "new",
+                    "none of the above"
+                ],
+                "answer": "none of the above"
+            },
+            {
+                "question": "What is the syntax to define a record in Pascal?",
+                "options": [
+                    "record recordName {\n field1 : type1;\n field2 : type2;\n}",
+                    "type recordName = record {\n field1 : type1;\n field2 : type2;\n}",
+                    "def recordName {\n field1 : type1;\n field2 : type2;\n}",
+                    "record recordName = {\n field1 : type1;\n field2 : type2;\n}"
+                ],
+                "answer": "type recordName = record {\n field1 : type1;\n field2 : type2;\n}"
+            }
+        ]
     }
 ]
