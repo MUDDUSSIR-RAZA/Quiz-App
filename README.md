@@ -14,7 +14,7 @@ Users can select one of the quizzes displayed on the screen to start the quiz. O
 
 ## Classes
 
-### - Quiz
+### Quiz
 
 This is the main class that manages the quiz. It has the following properties:
 
@@ -29,7 +29,7 @@ The **Quiz** class also has the following methods:
 **checkAnswer(event)**: Checks the user's answer against the correct answer and updates the score.
 **showResult()**: Displays the user's score and a button to restart the quiz.
 
-### - Question
+### Question
 
 This class represents a quiz question. It has the following properties:
 
@@ -39,17 +39,17 @@ This class represents a quiz question. It has the following properties:
 
 ## Static methods
 
-### - shuffleArray(arr)
+### shuffleArray(arr)
 
 This is a static method of the **Quiz** class that shuffles the given array using the Fisher-Yates algorithm.
 
 ## Functions
 
-### - loadAllQuizzes()
+### loadAllQuizzes()
 
 This function is called when the page loads and loads all the quizzes from the **quiz.json** file. It sorts the quizzes alphabetically and creates a clickable **div** for each quiz.
 
-### - loadQuiz(questions)
+### loadQuiz(questions)
 This function is called when a user selects a quiz. It initializes a **Quiz** object with the given array of Question objects and displays the first question on the screen.
 
 ## Credits
